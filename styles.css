@@ -1,0 +1,114 @@
+* {
+  --color-1: #252222;
+  --color-2: #FFBE40;
+  --color-3: #FFFFFF;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto';
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 0px 20px 0px 20px;
+  height: 60px;
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-ufrj {
+  height: 55px;
+}
+
+.menu-yellow {
+  height: 22px;
+  width: 25px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+section.content {
+  width: 40%;
+  background-color: var(--color-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p {
+  width: 75%;
+  text-align: center;
+}
+
+.title-v2g {
+  font-weight: 700;
+  font-size: 120px;
+  margin-bottom: 45px;
+}
+
+section.ufrj {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+}
+
+.background {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.background-content {
+  align-items: center;
+  background-color: var(--color-2);
+  border-radius: 10px;
+  height: 100px;
+  color: var(--color-3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.8;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 2.5%;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-3);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 250px;
+  height: 75px;
+  margin-top: 50px;
+  color: var(--color-1);
+}
+
+.about-button:hover {
+  transform: scale(1.05);
+}
