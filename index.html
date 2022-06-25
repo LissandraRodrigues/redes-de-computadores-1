@@ -7,15 +7,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="./styles/all.css">
+  <link rel = "shortcut icon" href = "./img/energy.png" type = "image/x-icon" sizes = "16x16 24x24 32x32 64x64">
   <title> V2G </title>
 </head>
+<style>
+  body {
+    overflow: hidden;
+  }
+</style>
 <body>
   
   <header>
 
     <img class="logo-ufrj" src="./img/logo-ufrj.png" alt="Logo UFRJ">
+
+    <a href="./pages/tecnologies.html" style="color:white;"> 
+      <p class="option" > Tecnologias </p>
+    </a>
+
+    <a href="./pages/authorship_statement.html" style="color:white;"> 
+      <p class="option" > Declaração de Autoria </p>
+    </a>
 
     <button onclick="openMenu()">
       <img class="menu-yellow" src="/img/yellow-menu.png" alt="Menu Amarelo">
@@ -38,10 +52,12 @@
     <section class="ufrj">
       <img class="background" src="./img/background.jpg" alt="Background">
 
-      <div class="background-content">
-        <h3> UNIVERSIDADE FEDERAL DO RIO DE JANEIRO </h3>
-        <p> Redes de Computadores 1 - 2022.1 </p>
-      </div>
+      <a href="https://www.gta.ufrj.br/ensino/eel878/redes1-2022-1/index.html">
+        <div class="background-content grids-button">
+          <h3> UNIVERSIDADE FEDERAL DO RIO DE JANEIRO </h3>
+          <p> Redes de Computadores 1 - 2022.1 </p>
+        </div>
+      </a>
     </section>
 
   </main>

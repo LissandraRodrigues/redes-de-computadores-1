@@ -12,8 +12,6 @@
 body {
   width: 100vw;
   height: 100vh;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 header {
@@ -109,6 +107,23 @@ a {
   color: var(--color-1);
 }
 
-.about-button:hover {
+.about-button:hover, .grids-button:hover {
   transform: scale(1.05);
+}
+
+ul {
+  display: flex;
+}
+
+li ~ li {
+  margin-left: 20px;
+}
+
+.option {
+  list-style: none;
+  transition: color 2ms;
+}
+
+.option:hover {
+  color: var(--color-2);
 }
