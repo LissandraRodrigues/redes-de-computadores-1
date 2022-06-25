@@ -1,0 +1,17 @@
+* {
+  --color-1: #252222;
+  --color-2: #FFBE40;
+  --color-3: #FFFFFF;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto';
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
