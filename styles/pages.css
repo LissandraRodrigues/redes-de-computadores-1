@@ -36,14 +36,14 @@ body {
   margin-left: calc(25vw - 30px);
 }
 
-/* ABOUT E TECNOLOGIES */
+/* ABOUT, TECNOLOGIES AND PROTOCOLS */
 
-.about, .tecnologies{
+.about, .tecnologies, .protocols {
   display: flex;
   flex-direction: column;
 }
  
-.group-boxs-about, .boxs-tecnologies {
+.group-boxs-about, .boxs-tecnologies, .boxs-protocols {
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -56,16 +56,16 @@ body {
   margin-bottom: 100px;
 }
 
-.boxs-about, .boxs-tecnologies {
+.boxs-about, .boxs-tecnologies, .boxs-protocols {
   display: flex;
   margin-top: 50px;
 }
 
-.boxs-tecnologies {
+.boxs-tecnologies, .boxs-protocols {
   flex-direction: row;
 }
 
-.box-about, .box-tecnologies {
+.box-about, .box-tecnologies, .box-protocols {
   border-radius: 15px;
   width: 200px;
   height: 200px;
@@ -81,7 +81,16 @@ body {
   color: var(--color-1);
 }
 
-.box-tecnologies {
+.boxs-protocols {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-protocols {
+  margin: 15px 0px;
+}
+
+.box-tecnologies, .box-protocols {
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -89,7 +98,7 @@ body {
   margin-bottom: 0px;
 }
 
-.box-tecnologies h3 {
+.box-tecnologies h3, .box-protocols h3 {
   margin-bottom: 20px;
 }
 
@@ -100,6 +109,7 @@ body {
 .box-tecnologies ~ .box-tecnologies {
   margin-left: 50px;
 }
+
 .v2g-structure {
   width: 40vw;
   border-radius: 15px;
