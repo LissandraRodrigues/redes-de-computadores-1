@@ -122,8 +122,14 @@ li ~ li {
 .option {
   list-style: none;
   transition: color 2ms;
+  margin-left: 25px;
+  color: var(--color-3);
 }
 
 .option:hover {
   color: var(--color-2);
+}
+
+.options {
+  display: flex;
 }
