@@ -90,10 +90,6 @@ section.ufrj {
   position: absolute;
 }
 
-a {
-  text-decoration: none;
-}
-
 .about-button {
   display: flex;
   justify-content: center;
