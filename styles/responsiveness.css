@@ -38,6 +38,19 @@
   .options-responsiveness {
     display: flex;
   }
+
+  .boxs-tecnologies {
+    flex-direction: column;
+ 
+  }
+
+  .box-tecnologies {
+    width: 80%;
+    height: 33%; 
+    margin-top: 20px;
+    margin-left: 0px !important;
+  }
+
 }
 
 @media (max-width: 900px) {
@@ -114,7 +127,7 @@
   }
 
   .box-protocols {
-    height: 300px;
+    height: 33%; 
   }
 }
 
@@ -152,13 +165,9 @@
     width: 135px;
     height: 135px;
   }
-
 }
 
 @media (max-width: 200px) {
-  .box-protocols {
-    height: 500px;
-  }
 
   .title-page {
     font-size: 25px;
