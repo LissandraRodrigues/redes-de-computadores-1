@@ -101,6 +101,8 @@ body {
 
 .box-protocols {
   margin: 15px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .box-tecnologies, .box-protocols, .box-applications {
