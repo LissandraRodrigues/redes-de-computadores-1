@@ -7,7 +7,7 @@
 
 @media (max-width: 1200px) {
   .v2g-structure {
-    margin-top: 10px;
+    margin-top: 25px;
     width: 60vw;
   }
 
@@ -39,16 +39,20 @@
     display: flex;
   }
 
-  .boxs-tecnologies, .boxs-applications {
+  .boxs-tecnologies, .boxs-applications, .boxs-about {
     flex-direction: column;
  
   }
 
-  .box-tecnologies, .box-applications {
+  .box-tecnologies, .box-applications, .box-about {
     width: 80%;
     height: 33%; 
     margin-top: 20px;
     margin-left: 0px !important;
+  }
+
+  .box-about {
+    margin-top: 0px;
   }
 
 }
@@ -64,7 +68,7 @@
 }
 
 @media (max-width: 800px) {
-  .boxs-protocols, .box-applications {
+  .boxs-protocols, .box-applications, .box-about {
     justify-content: center;
   }
 }
@@ -92,6 +96,10 @@
   .author-box ~ .author-box {
     margin-top: 50px;
   } 
+
+  .group-boxs-about {
+    padding-top: 0px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -126,7 +134,7 @@
     height: 300px;
   }
 
-  .box-protocols, .box-applications {
+  .box-protocols, .box-applications, .box-about {
     height: 33%; 
   }
 }
