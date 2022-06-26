@@ -85,6 +85,15 @@ body {
   margin-bottom: 0px;
 }
 
+.box-bibliography h3 {
+  margin-bottom: 10px;
+}
+
+.box-bibliography a {
+  color: blue; 
+  text-decoration: underline;
+}
+
 .boxs-protocols {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -102,17 +111,32 @@ body {
   margin-bottom: 0px;
 }
 
+.boxs-tecnologies {
+  align-items: flex-start;
+}
+
+.box-tecnologies {
+  width: 300px;
+  height: auto;
+}
+
 .box-tecnologies h3, .box-protocols h3, .box-applications h3 {
   margin-bottom: 20px;
   text-align: center;
 }
 
 .box-about ~ .box-about {
-  margin-left: 100px;
+  margin-left: 50px;
+}
+
+.box-about {
+  padding: 20px;
+  height: auto;
+  width: 250px;
 }
 
 .box-tecnologies ~ .box-tecnologies, .box-applications ~ .box-applications {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .v2g-structure {
@@ -124,6 +148,28 @@ body {
 span {
   margin-top: 10px;
   font-size: 12px;
+}
+
+.benefits-title {
+  margin-bottom: 15px;
+}
+
+.benefits {
+  background-color: var(--color-3);
+  padding: 20px;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.benefit {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.objectives {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 15px;
 }
 
 /* AUTHORS */

@@ -39,9 +39,13 @@
     display: flex;
   }
 
+  .boxs-tecnologies {
+    display: flex;
+    align-items: center;
+  }
+
   .boxs-tecnologies, .boxs-applications, .boxs-about {
     flex-direction: column;
- 
   }
 
   .box-tecnologies, .box-applications, .box-about {
@@ -79,13 +83,14 @@
     text-align: center;
   }
 
-  section.ufrj {
+  section.ufrj, .legend-objectives, .objectives {
     display: none;
   }
 
   section.content {
     width: 100vw;
   }
+
 }
 
 @media (max-width: 550px) {
@@ -135,6 +140,7 @@
   }
 
   .box-protocols, .box-applications, .box-about {
+    padding: 10px;
     height: 33%; 
   }
 }
