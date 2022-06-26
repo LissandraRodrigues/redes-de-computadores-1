@@ -71,6 +71,16 @@
   }
 }
 
+@media (max-width: 550px) {
+  .authors-boxs {
+    flex-direction: column;
+  } 
+
+  .author-box ~ .author-box {
+    margin-top: 50px;
+  } 
+}
+
 @media (max-width: 400px) {
   .title-page {
     font-size: 30px;
@@ -132,14 +142,29 @@
   .download img {
     margin-top: 10px;
   }
+
+  .photo-border {
+    width: 150px;
+    height: 150px;
+  }
+
+  .photo {
+    width: 135px;
+    height: 135px;
+  }
+
 }
 
 @media (max-width: 200px) {
   .box-protocols {
     height: 500px;
   }
-  
+
   .title-page {
     font-size: 25px;
+  }
+  
+  a {
+    font-size: 10px;
   }
 }
