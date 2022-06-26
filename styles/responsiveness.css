@@ -39,12 +39,12 @@
     display: flex;
   }
 
-  .boxs-tecnologies {
+  .boxs-tecnologies, .boxs-applications {
     flex-direction: column;
  
   }
 
-  .box-tecnologies {
+  .box-tecnologies, .box-applications {
     width: 80%;
     height: 33%; 
     margin-top: 20px;
@@ -64,7 +64,7 @@
 }
 
 @media (max-width: 800px) {
-  .boxs-protocols {
+  .boxs-protocols, .box-applications {
     justify-content: center;
   }
 }
@@ -126,7 +126,7 @@
     height: 300px;
   }
 
-  .box-protocols {
+  .box-protocols, .box-applications {
     height: 33%; 
   }
 }
