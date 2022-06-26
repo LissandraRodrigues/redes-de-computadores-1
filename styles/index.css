@@ -126,6 +126,10 @@ li ~ li {
   color: var(--color-2);
 }
 
+.option:last-child {
+  margin-right: 25px;
+}
+
 .options {
   display: flex;
 }
