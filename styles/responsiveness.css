@@ -1,5 +1,3 @@
-/* HOME */
-
 @media (max-width: 1040px) {
   header {
     align-items: center;
@@ -60,8 +58,6 @@
     }
 }
 
-/* ABOUT */
-
 @media (max-width: 1300px) {
   .v2g-structure {
     margin-top: 15px;
@@ -90,6 +86,11 @@
   }
 }
 
+@media (max-width: 800px) {
+  .boxs-protocols {
+    justify-content: center;
+  }
+}
 @media (max-width: 700px) {
   .title-page {
     font-size: 35px;
@@ -127,5 +128,15 @@
   .box-about {
     margin-bottom: 25px;
     height: 300px;
+  }
+
+  .box-protocols {
+    height: 300px;
+  }
+}
+
+@media (max-width: 200px) {
+  .box-protocols {
+    height: 500px;
   }
 }
