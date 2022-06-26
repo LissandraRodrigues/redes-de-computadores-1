@@ -101,6 +101,7 @@ section.ufrj {
   height: 75px;
   margin-top: 50px;
   color: var(--color-1);
+  margin-bottom: 100px;
 }
 
 .about-button:hover, .grids-button:hover {
@@ -140,7 +141,6 @@ p.option:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
   color: var(--color-1);
 }
 
@@ -154,3 +154,13 @@ p.option:last-child {
   cursor: pointer;
   opacity: 0.5;
 }
+
+.options-responsiveness {
+  display: none;
+  background-color: var(--color-2);
+  color: var(--color-3);
+  padding: 10px;
+  border-radius: 5px
+}
+
+
