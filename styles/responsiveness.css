@@ -105,8 +105,8 @@
 }
 
 @media (max-width: 300px) {
-  .title-page {
-    font-size: 20px;
+  .options-responsiveness {
+    width: 85px;
   }
 
   .go-back {
